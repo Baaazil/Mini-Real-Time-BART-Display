@@ -1,0 +1,2096 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a7c2b2d0-6565-445b-8e00-9ee4642f1c34")
+	(paper "A4")
+	(title_block
+		(title "KEY")
+		(date "20/11/2014")
+	)
+	(lib_symbols
+		(symbol "NODEMCU_DEVKIT_V1.0-altium-import:GND_POWER_GROUND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NODEMCU_DEVKIT_V1.0-altium-import:VDD3V3_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDD3V3"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VDD3V3'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VDD3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vowstar_Basic_Device:root_1_SMT_R_0402_Vowstar_Basic_Device.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Surface mount resistor 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SMT_R_0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_1_SMT_R_0402_Vowstar_Basic_Device.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy -0.762 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vowstar_Basic_Device:root_3_SMT_LED_0603_Vowstar_Basic_Device.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMT LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SMT_LED_0603*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_3_SMT_LED_0603_Vowstar_Basic_Device.IntLib_1_0"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.778) (xy 0 -0.762) (xy -2.286 1.778) (xy 2.286 1.778)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -0.762) (xy 2.286 -1.016) (xy -2.286 -1.016) (xy -2.286 -0.762) (xy 2.286 -0.762)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 0) (xy 3.048 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.032) (xy 3.048 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.254) (xy 4.572 -0.508) (xy 3.81 -0.508) (xy 4.572 0.254)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -1.778) (xy 4.572 -2.54) (xy 3.81 -2.54) (xy 4.572 -1.778)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vowstar_Switch:root_3_SMT_SW_PTS_820_Vowstar_Switch.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMT Tactile ‎Switch PTS 820 Series"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SMT_SW_PTS_820*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_3_SMT_SW_PTS_820_Vowstar_Switch.IntLib_1_0"
+				(circle
+					(center 0 3.048)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -3.048)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 3.81) (xy 1.524 3.81) (xy 1.524 -3.81) (xy 1.778 -3.81) (xy 1.778 -1.016) (xy 2.54 -1.016)
+						(xy 2.54 1.016) (xy 1.778 1.016) (xy 1.778 3.81)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(polyline
+		(pts
+			(xy 58.42 80.4672) (xy 57.404 82.2452) (xy 56.642 81.4832) (xy 58.42 80.4672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid "9f825c5b-9c1a-4c9e-91bb-76912f2a98f2")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 12.7 34.7472 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cb0105a-1d5e-46e8-ad41-67cf026e8d75")
+	)
+	(text "${ORGANIZATION}"
+		(exclude_from_sim no)
+		(at 254 199.8472 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2739036c-b3d2-4b15-8bae-175b9aecebea")
+	)
+	(text "NODE MCU TEAM"
+		(exclude_from_sim no)
+		(at 254 187.2742 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "356af86a-c166-49b6-8488-1bc2601321b1")
+	)
+	(text "VER"
+		(exclude_from_sim no)
+		(at 254 167.8432 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "90684601-076f-4086-8ec7-25456ab81108")
+	)
+	(text "0.9"
+		(exclude_from_sim no)
+		(at 255.27 174.3202 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28ec2ba-d2fe-4ba9-ab73-2b9389214ed2")
+	)
+	(text "${ISSUE_DATE}"
+		(exclude_from_sim no)
+		(at 266.7 174.3202 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7e18bc4-50b3-42a8-ad50-313cf46b4487")
+	)
+	(text "DATE"
+		(exclude_from_sim no)
+		(at 269.24 167.8432 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc042103-c115-44aa-8edc-a74af8569a61")
+	)
+	(text "WEBSITE"
+		(exclude_from_sim no)
+		(at 259.08 193.7512 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "de1be7f5-704f-4d41-be66-b4cad5330faf")
+	)
+	(text "ORGANIZATION"
+		(exclude_from_sim no)
+		(at 254 180.7972 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "efd36b19-3342-4957-8169-5a46b9341d1c")
+	)
+	(text_box "Use this resistor only in sleep mode"
+		(exclude_from_sim no)
+		(at 51.816 84.0232 0)
+		(size -33.02 3.048)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6bc208e0-a2d3-42a2-905e-4e5b04cab4d2")
+	)
+	(text_box "This LED SHOULD BLUE or WHITE to make sure enough voltage drop"
+		(exclude_from_sim no)
+		(at 124.46 49.4792 0)
+		(size -50.8 8.128)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9e4c6a15-6c0d-462d-beb8-d57ed8be1a2c")
+	)
+	(junction
+		(at 60.96 72.8472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "078a06cb-3c1c-4860-81c9-06893b4f7a0e")
+	)
+	(junction
+		(at 66.04 83.0072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08105b42-223f-4e9e-a390-bf54b44ea311")
+	)
+	(wire
+		(pts
+			(xy 104.14 75.3872) (xy 104.14 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de25861-9317-4c76-aa85-66c92a116801")
+	)
+	(polyline
+		(pts
+			(xy 251.46 182.0672) (xy 284.48 182.0672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "10b96837-b69b-4764-8ac0-ca74bdad12cd")
+	)
+	(polyline
+		(pts
+			(xy 129.54 105.8672) (xy 129.54 39.8272)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+			(color 17 3 127 1)
+		)
+		(uuid "186efd63-ea60-4284-bbf3-371ff2b7ec8e")
+	)
+	(polyline
+		(pts
+			(xy 17.78 83.0072) (xy 55.88 83.0072)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "2080d36f-8ee8-4ccb-870d-d8bdef38b203")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.8472) (xy 83.82 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d2f0a0-d1d9-469b-84ac-82b5ccc1ac88")
+	)
+	(polyline
+		(pts
+			(xy 55.88 88.0872) (xy 17.78 88.0872)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "28566989-de8e-49a3-873a-d4b9e4178678")
+	)
+	(polyline
+		(pts
+			(xy 129.54 39.8272) (xy 12.7 39.8272)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+			(color 17 3 127 1)
+		)
+		(uuid "30d585c9-960d-41a6-b8e9-10fe81d3d697")
+	)
+	(polyline
+		(pts
+			(xy 264.16 161.7472) (xy 264.16 175.2092)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3114a9ae-fd84-49ce-acc6-83c87d7a9f37")
+	)
+	(polyline
+		(pts
+			(xy 210.82 202.3872) (xy 284.48 202.3872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "31a2da82-937b-4523-8955-48afdc96bdf7")
+	)
+	(polyline
+		(pts
+			(xy 55.88 83.0072) (xy 55.88 88.0872)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "323c553c-e7d8-42f7-bde0-daf929a39de2")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.0072) (xy 60.96 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b622c97-ae32-4788-8d51-483017b1c183")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.8472) (xy 96.52 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b818f7b-50a3-4c1f-880c-06e1654ef2b0")
+	)
+	(polyline
+		(pts
+			(xy 251.46 194.7672) (xy 284.48 194.7672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5e10dee5-0906-4e21-b35a-cf33c41f21b7")
+	)
+	(polyline
+		(pts
+			(xy 17.78 88.0872) (xy 17.78 83.0072)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "64343e8c-6d77-49b8-bcac-22305e0d7639")
+	)
+	(polyline
+		(pts
+			(xy 12.7 39.8272) (xy 12.7 105.8672)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+			(color 17 3 127 1)
+		)
+		(uuid "78b88982-aafb-410c-84e7-1f669ffda146")
+	)
+	(polyline
+		(pts
+			(xy 284.48 202.3872) (xy 284.48 161.7472)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "78c333f9-f95e-4204-ad8f-8e41bcb85844")
+	)
+	(polyline
+		(pts
+			(xy 251.46 169.3672) (xy 284.48 169.3672)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9df1b276-7f54-4c03-9cd2-0b89a2530cc6")
+	)
+	(wire
+		(pts
+			(xy 60.96 72.8472) (xy 48.26 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94ed145-d608-4e93-be09-8a9677e1d73e")
+	)
+	(polyline
+		(pts
+			(xy 284.48 161.7472) (xy 210.82 161.7472)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ac99b58e-16e9-4414-b19b-3467d41bfc58")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.0072) (xy 66.04 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef784f4-bac5-4156-ada2-c06e11fbe5b1")
+	)
+	(polyline
+		(pts
+			(xy 210.82 161.7472) (xy 210.82 202.3872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b1ee63dd-9ca2-4233-9fe4-45066cf7a0f7")
+	)
+	(polyline
+		(pts
+			(xy 251.46 161.7472) (xy 251.46 202.3872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c1267353-bf15-41d1-af01-7437a3314977")
+	)
+	(polyline
+		(pts
+			(xy 58.42 80.4672) (xy 55.88 83.0072)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "ca6b340e-50f8-4218-b73e-c2921723e9b3")
+	)
+	(polyline
+		(pts
+			(xy 251.46 188.4172) (xy 284.48 188.4172)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d385e27a-c6be-415c-8ea9-a21668527cb1")
+	)
+	(polyline
+		(pts
+			(xy 12.7 105.8672) (xy 129.54 105.8672)
+		)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+			(color 17 3 127 1)
+		)
+		(uuid "e2ff0a67-9089-412f-ba57-d1adc17da75c")
+	)
+	(wire
+		(pts
+			(xy 60.96 70.3072) (xy 60.96 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd7f434-64cc-4f99-a642-7917ad5904d6")
+	)
+	(polyline
+		(pts
+			(xy 251.46 175.7172) (xy 284.48 175.7172)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ebeb1cba-b398-4881-a867-7c8a7e701161")
+	)
+	(label "GPIO0"
+		(at 96.52 72.8472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "038c9467-25d0-47c6-977d-9d794369bf1f")
+	)
+	(label "nRST"
+		(at 76.2 72.8472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b3887b3-9433-46a3-8d42-97b49435af2b")
+	)
+	(label "GPIO16"
+		(at 50.8 72.8472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aa02cf4-3a00-4dfa-966e-493d5262e4ce")
+	)
+	(symbol
+		(lib_id "Vowstar_Basic_Device:root_1_SMT_R_0402_Vowstar_Basic_Device.IntLib")
+		(at 71.12 77.9272 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21b1e85b-ec72-40f5-b69f-438ad72744ca")
+		(property "Reference" "R11"
+			(at 72.136 77.6732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "470"
+			(at 72.136 80.2132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "SMT_R_0402"
+			(at 71.12 77.9272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 77.9272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Surface mount resistor 0402"
+			(at 71.12 77.9272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0ab8b33-37be-4a71-affc-e6e1878e0a59")
+		)
+		(pin "2"
+			(uuid "7ad5c29e-0fbb-458a-92c2-03d0b3bc6c2b")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NODEMCU_DEVKIT_V1.0-altium-import:GND_POWER_GROUND")
+		(at 66.04 95.7072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b28578b-8ba1-4691-abe6-dc1d59ccf8a7")
+		(property "Reference" "#PWR?"
+			(at 66.04 95.7072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 102.0572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8a46cd71-0c22-44e3-b01d-197fb4d1bfc7")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NODEMCU_DEVKIT_V1.0-altium-import:GND_POWER_GROUND")
+		(at 104.14 95.7072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57920526-83fc-4a01-9900-34f1db232a75")
+		(property "Reference" "#PWR?"
+			(at 104.14 95.7072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 102.0572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f3918f03-b03e-4203-843c-02de2733c44f")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NODEMCU_DEVKIT_V1.0-altium-import:VDD3V3_BAR")
+		(at 60.96 49.9872 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "818f5097-2fa9-408f-b73b-aedcd352300d")
+		(property "Reference" "#PWR?"
+			(at 60.96 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD3V3"
+			(at 60.96 46.1772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 49.9872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 49.9872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 49.9872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "3fd00531-1a59-4b8f-8dc5-6503d32c5ad9")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vowstar_Switch:root_3_SMT_SW_PTS_820_Vowstar_Switch.IntLib")
+		(at 66.04 90.6272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "955aa31c-6ae9-482c-9b91-ae3d7b654bb6")
+		(property "Reference" "S1"
+			(at 68.834 89.1032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "KEY_RST/USER"
+			(at 71.12 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SMT_SW_PTS_820"
+			(at 66.04 90.6272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 90.6272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT Tactile ‎Switch PTS 820 Series"
+			(at 66.04 90.6272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0a774a06-f661-42f4-b898-0cd53b76f03a")
+		)
+		(pin "1"
+			(uuid "c5e311a9-75ae-4421-8764-75e4ec15f7ac")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vowstar_Basic_Device:root_1_SMT_R_0402_Vowstar_Basic_Device.IntLib")
+		(at 60.96 55.0672 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b178d005-6429-47c4-a16e-f1b5bf49696a")
+		(property "Reference" "R9"
+			(at 61.976 54.8132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "470"
+			(at 61.976 57.3532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "SMT_R_0402"
+			(at 60.96 55.0672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 55.0672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Surface mount resistor 0402"
+			(at 60.96 55.0672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b97b264-af38-4366-9ed2-da37e6898fdf")
+		)
+		(pin "2"
+			(uuid "938e3c77-5dc4-4703-8a18-02915ef3f501")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vowstar_Switch:root_3_SMT_SW_PTS_820_Vowstar_Switch.IntLib")
+		(at 104.14 90.6272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcd6955f-8209-447a-b450-d13212bf56a2")
+		(property "Reference" "S2"
+			(at 106.934 89.1032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "KEY_FLASH"
+			(at 109.22 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SMT_SW_PTS_820"
+			(at 104.14 90.6272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 90.6272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT Tactile ‎Switch PTS 820 Series"
+			(at 104.14 90.6272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2adbda79-efb0-4031-815b-3cff4efbf0e6")
+		)
+		(pin "1"
+			(uuid "bf16c7ce-bd5b-47d2-840d-1631ee9a6740")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vowstar_Basic_Device:root_3_SMT_LED_0603_Vowstar_Basic_Device.IntLib")
+		(at 60.96 65.2272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0cb0bf8-f98d-4507-80c5-e7ece5bb28a5")
+		(property "Reference" "LED1"
+			(at 65.786 63.7032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 65.786 66.2432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SMT_LED_0603"
+			(at 60.96 65.2272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 65.2272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT LED"
+			(at 60.96 65.2272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16eb030f-3538-4f12-a6f8-5defc5b21759")
+		)
+		(pin "2"
+			(uuid "2e0c2100-5de5-4887-9a31-2b881a0e0411")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vowstar_Basic_Device:root_1_SMT_R_0402_Vowstar_Basic_Device.IntLib")
+		(at 104.14 80.4672 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d30385f6-57bc-4f1e-a8d4-e8e5d62bfbfe")
+		(property "Reference" "R12"
+			(at 105.156 80.2132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "470"
+			(at 105.156 82.7532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "SMT_R_0402"
+			(at 104.14 80.4672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 80.4672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Surface mount resistor 0402"
+			(at 104.14 80.4672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9e6ac1-4ab1-4beb-b369-69b88e13b95a")
+		)
+		(pin "2"
+			(uuid "5e056997-cd91-4334-a012-25baf74dfd4c")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vowstar_Basic_Device:root_1_SMT_R_0402_Vowstar_Basic_Device.IntLib")
+		(at 60.96 77.9272 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4a9ca64-50a8-46ae-b94a-23e394bcd993")
+		(property "Reference" "R10"
+			(at 61.976 77.6732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "0(NC)"
+			(at 61.976 80.2132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "SMT_R_0402"
+			(at 60.96 77.9272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 77.9272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Surface mount resistor 0402"
+			(at 60.96 77.9272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3008967e-5790-448c-9281-869cd38e9dab")
+		)
+		(pin "2"
+			(uuid "6276bbf6-a5f4-4072-af74-812324aefd5b")
+		)
+		(instances
+			(project "NODEMCU_DEVKIT_V1.0"
+				(path "/e0056a2f-85a5-4ceb-8648-1122441e98e9"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "7")
+		)
+	)
+)
